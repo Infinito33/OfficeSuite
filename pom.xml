@@ -19,8 +19,7 @@
                     <execution>
                         <id>default-war</id>
                         <phase>prepare-package</phase>
-                        <configuration>
-                            <skipMain>true</skipMain>     
+                        <configuration>   
                             <failOnMissingWebXml>false</failOnMissingWebXml>
                         </configuration>
                     </execution>
