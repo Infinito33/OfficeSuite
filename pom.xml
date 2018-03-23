@@ -20,6 +20,7 @@
                         <phase>prepare-package</phase>
 
                         <configuration>
+                            <skipMain>true</skipMain>     
                             <failOnMissingWebXml>false</failOnMissingWebXml>
                         </configuration>
                     </execution>
