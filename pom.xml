@@ -11,6 +11,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
                 <configuration>
+                    <skipMain>true</skipMain>
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
@@ -18,7 +19,6 @@
                     <execution>
                         <id>default-war</id>
                         <phase>prepare-package</phase>
-
                         <configuration>
                             <skipMain>true</skipMain>     
                             <failOnMissingWebXml>false</failOnMissingWebXml>
