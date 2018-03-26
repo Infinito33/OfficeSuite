@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes/:target/dependency/* th.config.MyWebAppInitializer
+web: java -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
